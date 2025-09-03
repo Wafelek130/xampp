@@ -27,7 +27,9 @@ $animals = $result -> fetch_all(1);
     <link rel="stylesheet" href="weterynarz.css">
 </head>
 <body>
-    <header></header>
+    <header>
+        <h2>GABINET WETERYNARYJNY</h2>
+    </header>
 
     <main>
         <section class="left">
