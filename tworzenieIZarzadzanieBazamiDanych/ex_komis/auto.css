@@ -1,0 +1,44 @@
+main{
+    display: flex;
+}
+
+header{
+    background-color: #45517D;
+    color: white;
+    font-size: 120%;
+    text-align: right;
+    height: 60px;
+}
+
+.left{
+    background-color: #61B2EC;
+    width: 40%;
+    height: 500px;
+    float: left;
+}
+
+.right{
+    background-color: #8EC9F2;
+    width: 60%;
+    height: 500px;
+    float: right;
+}
+
+footer{
+    background-color: #45517D;
+    color: white;
+    font-size: 150%;
+    text-align: center;
+}
+
+a{
+    color: orange;
+}
+
+a:visited {
+    color: green;
+}
+
+table{
+    width: 100%;
+}
