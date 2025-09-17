@@ -1,0 +1,47 @@
+body{
+    font-family: verdana;
+}
+header{
+    display: flex;
+}
+section.menu{
+    background-color: sandybrown;
+    height: 120px;
+    width: 60%;
+    align-content: center;
+}
+section.logo{
+    background-color: sienna;
+    color: white;
+    text-align: center;
+    height: 120px;
+    width: 40%;
+}
+main{
+    display: flex;
+}
+section.left{
+    background-color: sienna;
+    color: white;
+    height: 700px;
+    width: 60%;
+}
+section.right{
+    background-color: sandybrown;
+    height: 700px;
+    width: 40%;
+}
+footer{
+    background-color: #4d1900;
+    color: white;
+    text-align: right;
+}
+#podstrona{
+    background-color: green;
+    color: yellow;
+    padding: 20px 50px;
+}
+#podstrona:hover{
+    background-color: yellow;
+    color: green;
+}
