@@ -39,12 +39,18 @@ $imgs = $result -> fetch_all(1);
             <?php
                 foreach($ssaks as $ssak){
                 echo "<p>{$ssak['id']}. {$ssak['gatunek']}</p>
-                    <p>Występowanie: {$ssak['wystepowanie']}, gromada {$ssak['azwa']}</p>
+                    <p>Występowanie: {$ssak['wystepowanie']}, gromada {$ssak['nazwa']}</p>
                     <hr>";
+
+                    // SELECT zwierzeta.id,Gromady_id,gatunek,wystepowanie,nazwa
+                    // FROM Zwierzeta
+                    // JOIN gromady ON gromady.id = zwierzeta.Gromady_id
+                    // WHERE Gromady_id BETWEEN 4 AND 5"
+
                 }
             ?>
         </section>
-        <section class="right">n
+        <section class="right">
             <h1>PTAKI</h1>
             <ol>
                 <?php
