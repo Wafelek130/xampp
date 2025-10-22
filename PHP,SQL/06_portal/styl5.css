@@ -23,10 +23,18 @@ body{
     width: 30%;
 }
 
+main{
+    display: flex;
+}
+
 .main-right{
     background-color: #26a69a;
     height: 550px;
     width: 70%;
+}
+
+header{
+    display: flex;
 }
 
 footer{
