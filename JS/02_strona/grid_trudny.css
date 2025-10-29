@@ -1,0 +1,32 @@
+body{
+    display: grid;
+    grid-template-columns: 40% 60%;
+    grid-template-areas: 
+        'nav main'
+        'aside main'
+        'ft ft';
+}
+
+nav{
+    background-color: bisque;
+    height: 300px;
+    grid-area: nav;
+}
+
+aside{
+    background-color: beige;
+    height: 200px;
+    grid-area: aside;
+}
+
+main{
+    background-color: darkkhaki;
+    height: 500px;
+    grid-area: main;
+}
+
+footer{
+    background-color: tan;
+    height: 150px;
+    grid-area: ft;
+}

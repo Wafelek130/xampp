@@ -1,0 +1,21 @@
+.container{
+    display: flex;
+}
+
+nav{
+    width: 40%;
+    height: 500px;
+    background-color: brown;
+}
+
+main{
+    width: 60%;
+    height: 500px;
+    background-color: gold;
+}
+
+footer{
+    height: 150px;
+    clear: both;
+    background-color: blueviolet;
+}

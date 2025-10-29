@@ -1,0 +1,27 @@
+body{
+    display: grid;
+    grid-template-columns: 40% 60%;
+    grid-template-areas:
+        'nav main'
+        'ft ft';
+}
+
+
+nav{
+    grid-area: nav;
+    height: 500px;
+    background-color: brown;
+}
+
+main{
+    grid-area: main;
+    height: 500px;
+    background-color: gold;
+}
+
+footer{
+    grid-area: ft;
+    height: 150px;
+    clear: both;
+    background-color: blueviolet;
+}

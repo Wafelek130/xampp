@@ -1,0 +1,25 @@
+nav{
+    height: 300px;
+    width: 40%;
+    background-color: green;
+    float: left;
+}
+
+aside{
+    height: 200px;
+    width: 40%;
+    background-color: greenyellow;
+    float: left;
+}
+
+main{
+    height: 500px;
+    width: 60%;
+    background-color: chartreuse;
+    float: right;
+}
+footer{
+    height: 150xp;
+    background-color: yellowgreen;
+    clear: both;
+}
